@@ -1,0 +1,7 @@
+{
+  "name": "Flutter Dev",
+  "image": "ubuntu:22.04",
+  "postCreateCommand": "bash /workspace/.devcontainer/setup-flutter.sh",
+  "forwardPorts": [8080, 5555],
+  "workspaceFolder": "/workspace"
+}
